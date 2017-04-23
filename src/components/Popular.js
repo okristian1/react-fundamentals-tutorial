@@ -88,12 +88,12 @@ componentDidMount() {
     return (
       <div>
       <SelectLanguage
-      selectedLanguage = {this.state.selectedLanguage}
-      onSelect = {this.updateLanguage}
+      selectedLanguage={this.state.selectedLanguage}
+      onSelect={this.updateLanguage}
       />
       {!this.state.repos
         ? <p>LOADING</p>
-        : <RepoGrid repos = {this.state.repos} />}
+        : <RepoGrid repos={this.state.repos} />}
       </div>
     )
   }

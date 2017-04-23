@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Popular from './components/Popular.js';
-import logo from './logo.svg';
 import './App.css';
 
 var ReactRouter = require('react-router-dom');
@@ -21,10 +20,10 @@ class App extends Component {
         <div className="container">
         <Nav />
           <Switch>
-            <Route exact path ='/' component={Home} />
-            <Route path ='/popular' component={Popular} />
-            <Route exact path ='/battle' component={Battle} />
-            <Route path = '/battle/results' component={Results} />
+            <Route exact path='/' component={Home} />
+            <Route path='/popular' component={Popular} />
+            <Route exact path='/battle' component={Battle} />
+            <Route path='/battle/results' component={Results} />
             <Route render={function() {
               return <p>Not Found</p>
             }} />

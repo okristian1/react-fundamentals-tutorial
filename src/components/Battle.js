@@ -141,24 +141,24 @@ render() {
          {playerOneImage !== null &&
          <PlayerPreview
             avatar={playerOneImage}
-            username = {playerOneName}
-            onReset = {this.handleReset}
-            id = 'playerOne'
+            username={playerOneName}
+            onReset={this.handleReset}
+            id='playerOne'
           /> }
 
         {!playerTwoName &&
          <PlayerInput
          id='playerTwo'
          label='Player Two'
-         onSubmit = {this.handleSubmit}
+         onSubmit={this.handleSubmit}
          /> }
 
          {playerTwoImage !== null &&
          <PlayerPreview
             avatar={playerTwoImage}
-            username = {playerTwoName}
-            onReset = {this.handleReset}
-            id = 'playerTwo'
+            username={playerTwoName}
+            onReset={this.handleReset}
+            id='playerTwo'
           /> }
          </div>
          {playerOneImage && playerTwoImage &&
