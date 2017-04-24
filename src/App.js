@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import Popular from './components/Popular.js';
 import './App.css';
-
+var React = require('react');
+var Popular = require('./components/Popular.js');
 var ReactRouter = require('react-router-dom');
 var Router = ReactRouter.BrowserRouter;
 var Nav = require('./components/Nav');
@@ -13,7 +12,7 @@ var Route = ReactRouter.Route;
 
 
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <Router>

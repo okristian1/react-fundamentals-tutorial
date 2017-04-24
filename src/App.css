@@ -150,3 +150,9 @@ a {
 .reset:hover {
   cursor: pointer
 }
+
+
+.Loader {
+  font-size: 36;
+  text-align: center;
+}
