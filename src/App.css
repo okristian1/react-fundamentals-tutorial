@@ -41,6 +41,10 @@
   font-weight: 200;
 }
 
+.header-score {
+  text-align: center;
+}
+
 
 ul {
   padding: 0;
