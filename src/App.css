@@ -109,11 +109,15 @@ a {
   color: #d0021b;
   }
 
-  .home-container {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-  }
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.home-container h1 {
+  text-align: center;
+}
 
 .button {
   color: #e6e6e6;
@@ -121,7 +125,8 @@ a {
   border: none;
   font-size: 16px;
   border-radius: 3px;
-  width: 200px;
+  min-width: 100px;
+  max-width: 200px;
   text-align: center;
   display: block;
   padding: 7px 0;
