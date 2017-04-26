@@ -1,44 +1,21 @@
 {
-  "main": "index.js",
-  "scripts": {
-  "start": "webpack-dev-server --open",
-  "build": "NODE_ENV='production' webpack -p",
-  "firebase-init": "firebase login && firebase init",
-  "deploy": "npm run build && firebase deploy"
-  },
-  "author": "Tyler McGinnis",
-  "license": "MIT",
-  "babel": {
-  "presets": [
-  "env",
-  "react"
-  ]
+  "name": "react-fundamentals-tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.1",
+    "query-string": "^4.3.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
-    "babel-core": "^6.24.0",
-    "babel-loader": "^6.4.1",
-    "babel-preset-env": "^1.2.2",
-    "babel-preset-react": "^6.23.0",
-    "css-loader": "^0.27.3",
-    "firebase-tools": "^3.5.0",
-    "html-webpack-plugin": "^2.28.0",
-    "style-loader": "^0.16.0",
-    "webpack": "^2.3.1",
-    "webpack-dev-server": "^2.4.2"
+    "react-scripts": "0.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy" : "npm run build&&gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-
-  "dependencies": {
-  "axios": "^0.16.0",
-  "prop-types": "^15.5.4",
-  "react": "^16.0.0-alpha.5",
-  "react-dom": "^16.0.0-alpha.5",
-  "react-router-dom": "^4.0.0"
   }
 }
