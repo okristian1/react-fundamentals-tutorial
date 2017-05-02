@@ -19,7 +19,7 @@ class App extends React.Component {
         <div className="container">
         <Nav />
           <Switch>
-            <Route exact path='/' component={Home} />
+            <Route exact path='/tutorial' component={Home} />
             <Route path='/popular' component={Popular} />
             <Route exact path='/battle' component={Battle} />
             <Route path='/battle/results' component={Results} />
